@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="https://png.pngtree.com/png-vector/20190411/ourlarge/pngtree-vector-resume-icon-png-image_927259.jpg" />
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive resume cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="" class="nav__logo">Khoa</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fas fa-home nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="far fa-user-circle nav__icon"></i>Thông tin
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="fas fa-book nav__icon"></i>Học vấn
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-laptop-code nav__icon"></i>Kỹ năng
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="fas fa-briefcase nav__icon"></i>Kinh nghiệm
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#interests" class="nav__link">
+                            <i class="fas fa-gamepad interests__icon"></i>
+                            Sở thích
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <div>
+                                <img src="assets/img/perfil.jpg" class="home__img" alt="">
+                            </div>
+                            <h1 class="home__title">NGUYEN LE ANH KHOA</h1>
+                            <h3 class="home__profession">Lập trình viên Front End </h3>
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <!-- <div class="">
+                                <a href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div> -->
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="fas fa-map-marker-alt home__icon"></i> Phong Dien, Can Tho
+                            </span>
+                            <span class="home__information">
+                                <i class="far fa-envelope home__icon"></i> anhkhoa999go@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="fas fa-mobile home__icon"></i> 0794231837
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class="far fa-moon change-theme" title="Theme" id="theme-button"></i>
+                    <i class="fas fa-download generate-pdf" title="Geneate PDF" id="resume-button"></i>
+
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">Mạng xã hội</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://github.com/anhkhoa0509" target="_blank" class="social__link">
+                            <i class="social__icon fab fa-github"></i>Github
+                        </a>
+                        <a href="https://www.linkedin.com/in/nguyen-le-anh-khoa-940a77181" target="_blank"
+                            class="social__link">
+                            <i class="social__icon fab fa-linkedin-in"></i>Linkedin-in
+                        </a>
+
+                        <a href="https://www.facebook.com/anhkhoa999go" target="_blank" class="social__link">
+                            <i class="social__icon fab fa-facebook"></i>Facebook
+                        </a>
+
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+                    <p class="profile__description"> Tôi mong muốn trở thành một lập trình viên Font-End chuyên nghiệp,
+                        có thể tham gia vào các dự án lớn, đồng thời học hỏi được nhiều kinh nghiệm từ quá trình làm
+                        việc. </p>
+                </section>
+                <!--==========EDUCATION==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Trình độ học vấn</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Kỹ thuật phần mềm</h3>
+                                <h3 class="education__studies">Can Tho University</h3>
+                                <h3 class="education__year">9/2019 - 12/2023</h3>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Kỹ năng</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Html
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Css
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Sass
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Javascript
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> ReactJS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> NodeJS
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Sản phẩm</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <div class="experience__rounder"></div>
+                                <div class="experience__line"></div>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">The 80's iCafe</h3>
+                                <img src="assets/img/the80icafe.PNG" class="experience__product"></img>
+                                <div class="experience__details">
+                                    <p>Front End: ReactJS + Redux</p>
+                                    <p>Back End: NodeJS + MySQL</p>
+                                    <p>Link web: <a
+                                            href="https://the80icafe-reactjs.herokuapp.com/">https://the80icafe-reactjs.herokuapp.com</a>
+                                    </p>
+                                    <p>Demo: <a
+                                            href="https://drive.google.com/file/d/1z7cvW_mBKtKB8MiOIWQ_J-ncR4O8ZGtf/view?usp=sharing">
+                                            The80icafe</a>
+                                    </p>
+
+                                    <p>Source Code Fontend: <a href="https://github.com/anhkhoa0509/the80icafe-frontend"
+                                            class="">the80icafe-frontend</a></p>
+                                    <p> Source Code Backend: <a href="https://github.com/anhkhoa0509/the80icafe-backend"
+                                            class="">the80icafe-backend</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <div class="experience__rounder"></div>
+                                <!-- <div class="experience__line"></div> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Những sản phẩm đã làm</h3>
+                                <img src="assets/img/perfil.jpg" class="experience__product"></img>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section" id="interests">
+                    <h2 class="section-title">Sở thích</h2>
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="fas fa-headphones-alt interests__icon"></i>
+                            <span class="interests__name">Âm nhạc</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="fas fa-gamepad interests__icon"></i>
+                            <span class="interests__name">Game</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="fas fa-book interests__icon"></i>
+                            <span class="interests__name">Đọc sách</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="fas fa-film interests__icon"></i>
+                            <span class="interests__name">Xem phim</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fas fa-arrow-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
