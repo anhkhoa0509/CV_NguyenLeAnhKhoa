@@ -8,7 +8,7 @@
   /*========== Colors ==========*/
   --title-color: #0B0A0A;
   --text-color: #403A3A;
-  --text-color-light: #707070;
+  --text-a-color: rgb(36, 32, 82);
   --container-color: #FAFAFA;
   --container-color-alt: #F0EFEF;
   --body-color: #FCFCFC;
@@ -51,6 +51,7 @@ html {
 body.dark-theme {
   --title-color: #F2F2F2;
   --text-color: #BFBFBF;
+  --text-a-color: white;
   --container-color: #212121;
   --container-color-alt: #181616;
   --body-color: #2B2B2B;
@@ -481,7 +482,7 @@ img {
 }
 
 .experience__details a {
-  color: rgb(36, 32, 82);
+  color: var(--text-a-color)
 }
 
 
