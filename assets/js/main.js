@@ -129,7 +129,7 @@ function geneateResume() {
 resumeButton.addEventListener("click", () => {
   scaleCV();
   geneateResume();
-  setTimeout(removeScale, 5000);
+  setTimeout(removeScale, 1000);
 });
 
 // /*==================== SCROLL REVEAL ANIMATION ====================*/
